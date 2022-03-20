@@ -168,7 +168,7 @@ check_service_status httpd
 # Download code
 print_color "green" "Install GIT.."
 sudo yum install -y git
-sudo git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html/
+sudo git clone https://github.com/princesarvaiya/learning-ecommerce-app.git /var/www/html/
 
 print_color "green" "Updating index.php.."
 sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
